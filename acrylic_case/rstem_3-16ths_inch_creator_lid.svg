@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="rstem_3-16ths_inch_gamer.svg">
+   sodipodi:docname="rstem_3-16ths_inch_creator_lid.svg">
   <defs
      id="defs4">
     <marker
@@ -141,18 +141,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5757241071"
-     inkscape:cx="666.9288907"
-     inkscape:cy="258.0509635"
+     inkscape:zoom="0.2440898739"
+     inkscape:cx="1021.616412"
+     inkscape:cy="960.3900254"
      inkscape:document-units="in"
-     inkscape:current-layer="g3301"
+     inkscape:current-layer="layer1"
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1221"
-     inkscape:window-height="748"
-     inkscape:window-x="53"
-     inkscape:window-y="3"
+     inkscape:window-width="1683"
+     inkscape:window-height="943"
+     inkscape:window-x="1305"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      units="in"
      fit-margin-top="0"
@@ -805,166 +805,6 @@
            sodipodi:type="arc" />
       </g>
     </g>
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3076"
-       transform="translate(461.25,0)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(922.5,0)"
-       id="use3078"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3080"
-       transform="translate(1383.75,0)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(1845,0)"
-       id="use3082"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3084"
-       transform="translate(2306.25,0)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(2767.5,0)"
-       id="use3086"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3088"
-       transform="translate(0,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(461.25,-697.5)"
-       id="use3090"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3092"
-       transform="translate(922.5,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(1383.75,-697.5)"
-       id="use3094"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3096"
-       transform="translate(1845,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(2306.25,-697.5)"
-       id="use3098"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3100"
-       transform="translate(2767.5,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(0,-1395)"
-       id="use3102"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3104"
-       transform="translate(461.25,-1395)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(922.5,-1395)"
-       id="use3106"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3108"
-       transform="translate(1383.75,-1395)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(1845,-1395)"
-       id="use3110"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3301"
-       id="use3112"
-       transform="translate(2306.25,-1395)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(2767.5,-1395)"
-       id="use3114"
-       xlink:href="#g3301"
-       y="0"
-       x="0" />
     <g
        id="g2992-4"
        transform="matrix(0,1,1,0,-472.8191001,-258.7717003)"

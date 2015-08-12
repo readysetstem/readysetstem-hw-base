@@ -141,17 +141,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.2426262633"
-     inkscape:cx="653.5487584"
-     inkscape:cy="832.2272071"
+     inkscape:zoom="0.8380033603"
+     inkscape:cx="343.2088632"
+     inkscape:cy="421.6077082"
      inkscape:document-units="in"
-     inkscape:current-layer="g3385"
+     inkscape:current-layer="layer1"
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1902"
-     inkscape:window-height="1143"
-     inkscape:window-x="1286"
+     inkscape:window-height="975"
+     inkscape:window-x="1306"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      units="in"
@@ -570,165 +570,5 @@
        style="stroke-width:0.0900000036;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(-1,0,0,1,1935.417935,774.5941872)"
        id="g5442-9-0-9-0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3135"
-       transform="translate(461.25,0)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(922.5,0)"
-       id="use3137"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3139"
-       transform="translate(1383.75,0)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(1845,0)"
-       id="use3141"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3143"
-       transform="translate(2306.25,0)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(2767.5,0)"
-       id="use3145"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(461.25,-697.5)"
-       id="use3147"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3149"
-       transform="translate(922.5,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(1383.75,-697.5)"
-       id="use3151"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3153"
-       transform="translate(1845,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(2306.25,-697.5)"
-       id="use3155"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3157"
-       transform="translate(2767.5,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3159"
-       transform="translate(461.25,-1395)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(922.5,-1395)"
-       id="use3161"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3163"
-       transform="translate(1383.75,-1395)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(1845,-1395)"
-       id="use3165"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3167"
-       transform="translate(2306.25,-1395)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(2767.5,-1395)"
-       id="use3169"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g3385"
-       id="use3171"
-       transform="translate(0,-697.5)"
-       width="3240"
-       height="2160" />
-    <use
-       height="2160"
-       width="3240"
-       transform="translate(0,-1395)"
-       id="use3173"
-       xlink:href="#g3385"
-       y="0"
-       x="0" />
   </g>
 </svg>
