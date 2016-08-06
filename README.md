@@ -1,4 +1,4 @@
-raspberrystem-hw-base
+readysetstem-hw-base
 =====================
 
-raspberrySTEM(TM) base hardware schematics and related documents
+Ready Set STEM(TM) base hardware schematics and related documents

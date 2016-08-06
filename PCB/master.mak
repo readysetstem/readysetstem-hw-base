@@ -11,7 +11,7 @@
 # TO CREATE THE PACKAGE
 #
 # - First time for an new EagleCAD schematic/board:
-#     - cp raspberrystem-hw-base/PCB/Makefile <your_proj>/
+#     - cp readysetstem-hw-base/PCB/Makefile <your_proj>/
 # - Prepare fab notes
 #     - Add any additional fab notes in README-BRD.txt
 #     - Add any images for reference.  In general, this is likely prototype
@@ -27,7 +27,7 @@
 #     - Then,
 #         - File->CAM Processor...
 #         - File->Open->Job...
-#             - Select raspberrystem-hw-base/PCB/sfe-gerb274x.cam
+#             - Select readysetstem-hw-base/PCB/sfe-gerb274x.cam
 #         - File->Open->Board...
 #             - Select <name>.BRD from this directory
 #         - Click "Process Job"

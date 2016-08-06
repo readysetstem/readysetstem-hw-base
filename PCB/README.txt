@@ -1,7 +1,9 @@
 File List
 
+gerbers/*.GKO       Outline
 gerbers/*.GBL       Bottom Copper
 gerbers/*.GBO       Bottom Silkscreen
+gerbers/*.GBP       Bottom Paste
 gerbers/*.GBS       Bottom Soldermask
 gerbers/*.GTL       Top Copper
 gerbers/*.GTO       Top Silkscreen
@@ -17,11 +19,15 @@ gerbers/*.gpi       Photoplotter Info File
 README.txt          This file
 *.jpg               Reference images
 
-Notes:
+Gerber Files Generated from EagleCAD 7.6 CAM Processor using sfe-gerb274x.cam
 
-- Gerber Files Generated from EagleCAD 7.1 CAM Processor using sfe-gerb274x.cam
-  from www.sparkfun.com
-- All parts and assembly should be Lead-Free RoHS compliant
+Fab Notes:
 - Refer to the JPG images for through-hole part orientation.
-
+- All parts and assembly should be Lead-Free RoHS compliant
+- Material: FR4
+- Board Thickness: 62 mils
+- Copper thickness: 1 oz.
+- Silkscreen color: white
+- Soldermask color: green
+- Depanelization: V-groove
 
