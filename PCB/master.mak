@@ -10,10 +10,12 @@
 #
 # TO CREATE THE PACKAGE
 #
-# - First time for an new EagleCAD schematic/board:
+# - First time for an new EagleCAD schematic/board (after first time, manually
+# diff/update files if needed):
 #     - cp readysetstem-hw-base/PCB/Makefile <your_proj>/
+#     - cp readysetstem-hw-base/PCB/README.TXT <your_proj>/
 # - Prepare fab notes
-#     - Add any additional fab notes in README-BRD.txt
+#     - Add any additional fab notes in README.txt
 #     - Add any images for reference.  In general, this is likely prototype
 #       images of (with annotation, as needed):
 #         - board-top.jpg
@@ -34,9 +36,27 @@
 #         - All files should now be created in the gerbers directory.
 # - Check in all files to git
 # - git tag, with name-version.  For example:
-#		git tag lid_gamer_pcb-01b
+#     git tag lid_gamer_pcb-01b
 # - Create archive with "make".  Filename will be <name>.zip
-# - Save package in Dropbox
+#
+# ADDING LOGO TO A BRD FILE
+#
+# How to import logo into eaglecad from inkscape
+# - Download svg2poly ULP:
+#      https://github.com/cmonr/Eagle-ULPs
+# - Open AI logo in Inkscape
+# - Follow all svg2poly instructions, including:
+#     - In Inkscape 0.47 or newer, Preferences > SVG output > Path data,
+#       tick "Allow relative coordinates"
+#     - Extensions > Modify Path > Add Nodes (Default settings are
+#       alright)
+#     - Extensions > Modify Path > Flatten Beziers (Default settings are
+#       alright)
+#     - Break Apart
+# - When importing, there appears to be an extra rectangle polygon.
+#   Delete it.
+# - You likely will have to resize in inkscape and repeat the import to
+#   get the right size.
 #
 SCH=$(wildcard *.sch)
 
@@ -64,14 +84,13 @@ ifneq ($(wildcard $(LIB)),$(LIB))
   LIB=
 endif
 
-GERBER_EXTENSIONS=GBL GBO GBS GTL GTO GTP GTS TXT dri gpi
+GERBER_EXTENSIONS=GBL GBO GBS GBP GTL GTO GTP GTS GML TXT dri gpi
 GERBERS=$(addprefix gerbers/$(NAME).,$(GERBER_EXTENSIONS))
 
 MASTER_README=$(COMMON_DIR)/README.txt
 README=README.txt
-README_BRD=$(wildcard README-BRD.txt)
 
-SOURCES=$(SCH) $(BRD) $(LIB) $(BOM) $(JPG) $(README) $(README_BRD) $(GERBERS)
+SOURCES=$(SCH) $(BRD) $(LIB) $(BOM) $(JPG) $(README) $(GERBERS)
 
 # ZIP output file name contains file rev
 ZIP=$(NAME)-$(BRD_REV).zip
@@ -79,10 +98,6 @@ ZIP=$(NAME)-$(BRD_REV).zip
 $(ZIP): $(SOURCES) Makefile
 	rm -f $@
 	zip $@ $(SOURCES)
-
-.INTERMEDIATE: $(README)
-$(README): $(MASTER_README)
-	cp $(MASTER_README) $(README)
 
 help:
 	@# Print header of this file
