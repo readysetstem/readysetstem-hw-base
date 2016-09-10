@@ -10,11 +10,13 @@
 #
 # TO CREATE THE PACKAGE
 #
+# - WARNING: This makefile runs out of a different repo (readysetstem-hw-base).
+#	Ensure that it is syned to the latest.
 # - First time for an new EagleCAD schematic/board (after first time, manually
 # diff/update files if needed):
 #     - cp readysetstem-hw-base/PCB/Makefile <your_proj>/
-#     - cp readysetstem-hw-base/PCB/README.TXT <your_proj>/
 # - Prepare fab notes
+#     - If README.txt does not exist, "make" once to create it.
 #     - Add any additional fab notes in README.txt
 #     - Add any images for reference.  In general, this is likely prototype
 #       images of (with annotation, as needed):
@@ -38,6 +40,7 @@
 # - git tag, with name-version.  For example:
 #     git tag lid_gamer_pcb-01b
 # - Create archive with "make".  Filename will be <name>.zip
+# - Save package in Google Drive
 #
 # ADDING LOGO TO A BRD FILE
 #
@@ -98,6 +101,30 @@ ZIP=$(NAME)-$(BRD_REV).zip
 $(ZIP): $(SOURCES) Makefile
 	rm -f $@
 	zip $@ $(SOURCES)
+	@if ! diff -q $(MASTER_README) $(README) >/dev/null; then \
+		echo "##########################################################################"; \
+		echo "### "; \
+		echo "### NOTE: Fab notes ($(README)) differes from default."; \
+		echo "### "; \
+		echo "### Differences shown below.  Please verify."; \
+		echo "### "; \
+		echo "##########################################################################"; \
+		colordiff $(MASTER_README) $(README); \
+	fi
+	
+$(README): $(MASTER_README)
+	@echo "##########################################################################"
+	@echo "### "
+	@echo "### WARNING: "
+	@echo "### "
+	@echo "### README.txt did not exist.  Creating default"
+	@echo "### "
+	@echo "### Final package will not be built.  Veryify README and rerun make"
+	@echo "### "
+	@echo "##########################################################################"
+	cp $(MASTER_README) $(README)
+	exit 1
+
 
 help:
 	@# Print header of this file
