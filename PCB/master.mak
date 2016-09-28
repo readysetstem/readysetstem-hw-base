@@ -47,19 +47,36 @@
 # How to import logo into eaglecad from inkscape
 # - Download svg2poly ULP:
 #      https://github.com/cmonr/Eagle-ULPs
-# - Open AI logo in Inkscape
-# - Follow all svg2poly instructions, including:
-#     - In Inkscape 0.47 or newer, Preferences > SVG output > Path data,
-#       tick "Allow relative coordinates"
-#     - Extensions > Modify Path > Add Nodes (Default settings are
-#       alright)
-#     - Extensions > Modify Path > Flatten Beziers (Default settings are
-#       alright)
-#     - Break Apart
-# - When importing, there appears to be an extra rectangle polygon.
-#   Delete it.
+# - General instructions are on svg2poly github page
+#	- Recommends to "Add Nodes", but not necessary
+# - To import into EagleCAD:
+#	- In Inkscape:
+#		- Open AI logo (ReadySetSTEM_Logo_Black.ai)
+#		- Confirm: Preferences > SVG output > Path data, tick
+#			"Allow relative coordinates"
+#		- Select all and _completely_ ungroup (multiple ctrl-shirt-G)
+#		- Delete text paths from logo (if not needed)
+#		- With Node cursor tool selected (F2):
+#			- Select all (ctrl-a)
+#			- Extensions > Modify Path > Flatten Beziers (Flatness: 0.5)
+#				- May need to modify decrease flatness for small logos
+#			- Select all (ctrl-a)
+#			- Break Apart (ctrl-shift-k)
+#		- File -> Save As... -> anything.svg (Format: Plain SVG)
+#	- In EagleCAD
+#		- Open *.brd file of PCB
+#		- MARK location to import image
+#		- Run ULP... -> svg2poly.ulp
+#		- Choose anything.svg created earlier
+#		- When importing, there appears to be an extra rectangle polygon.
+#			Delete it.
+#		- Group/move logo to correct location.
+#		- May need to group/rotate logo
+#		- May need to group/rotate mirror
+#		- Group/change layer to tPlace (if on top) or bPlace (if on bottom)
+#		- Group/change width to 1 (IMPORTANT!!!  Needed for correct gerber export)
 # - You likely will have to resize in inkscape and repeat the import to
-#   get the right size.
+#   get the right size. (400x400px worked for HeaderConnectorBoard)
 #
 SCH=$(wildcard *.sch)
 
