@@ -141,19 +141,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.088119022936313"
-     inkscape:cx="145.9079339660521"
-     inkscape:cy="169.3981717231449"
+     inkscape:zoom="4.088119"
+     inkscape:cx="145.90793"
+     inkscape:cy="149.82927"
      inkscape:document-units="in"
      inkscape:current-layer="g4494"
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1878"
-     inkscape:window-height="1146"
-     inkscape:window-x="1300"
-     inkscape:window-y="1"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      units="in"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -636,9 +636,9 @@
       </g>
       <path
          id="rect4578"
-         transform="translate(44.357143,-1795.70944)"
          d="M 32.00390625 1940.17578125 C 26.1149300384521 1940.17578125 21.373046875 1944.915711288452 21.373046875 1950.8046875 L 21.373046875 2059.326171875 C 21.373046875 2065.215148086548 26.1149300384521 2069.955078125 32.00390625 2069.955078125 L 241.05859375 2069.955078125 C 246.9475699615479 2069.955078125 251.6875 2065.215148086549 251.6875 2059.326171875 L 251.6875 1950.8046875 C 251.6875 1944.915711288452 246.9475699615479 1940.17578125 241.05859375 1940.17578125 L 32.00390625 1940.17578125 z "
-         style="opacity:0.6935999852;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.0900000036;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:0.09;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="translate(44.357143,-1795.70944)" />
       <g
          transform="matrix(-1,0,0,1,507.9792138630157,236.193033773382)"
          id="g4580">
