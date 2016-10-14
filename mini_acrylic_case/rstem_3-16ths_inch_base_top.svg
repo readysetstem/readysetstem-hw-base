@@ -141,19 +141,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.510502789613401"
-     inkscape:cx="170.6750206543968"
-     inkscape:cy="131.3377351730047"
+     inkscape:zoom="3.848770871491076"
+     inkscape:cx="151.5269816048964"
+     inkscape:cy="137.1698711533899"
      inkscape:document-units="in"
-     inkscape:current-layer="g4312"
+     inkscape:current-layer="g5626"
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1230"
-     inkscape:window-height="756"
-     inkscape:window-x="50"
-     inkscape:window-y="219"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1863"
+     inkscape:window-height="1143"
+     inkscape:window-x="3215"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      units="in"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -451,6 +451,13 @@
                  style="fill:none;stroke:#ff0000;stroke-width:0.0900000036;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                  id="circle4284" />
             </g>
+            <circle
+               id="circle4284-2"
+               style="fill:none;stroke:#ff0000;stroke-width:0.0900000036;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               cy="-469.2569885253906"
+               cx="-36.94248199462891"
+               transform="matrix(0,-1,-1,0,0,0)"
+               r="4.5" />
           </g>
           <path
              sodipodi:nodetypes="sssssscssccsscsssssss"
